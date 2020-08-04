@@ -1,15 +1,15 @@
 package com.dji.activationDemo;
 
-import android.Manifest;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.widget.Toast;
+
+import androidx.core.content.ContextCompat;
 
 import dji.common.error.DJIError;
 import dji.common.error.DJISDKError;
@@ -62,21 +62,14 @@ public class DemoApplication extends Application {
         return getProductInstance() != null && getProductInstance() instanceof HandHeld;
     }
 
-    public static synchronized Camera getCameraInstance() {
+    private final Runnable updateRunnable = new Runnable() {
 
-        if (getProductInstance() == null) return null;
-
-        Camera camera = null;
-
-        if (getProductInstance() instanceof Aircraft){
-            camera = ((Aircraft) getProductInstance()).getCamera();
-
-        } else if (getProductInstance() instanceof HandHeld) {
-            camera = ((HandHeld) getProductInstance()).getCamera();
+        @Override
+        public void run() {
+            Intent intent = new Intent(FLAG_CONNECTION_CHANGE);
+            getApplicationContext().sendBroadcast(intent);
         }
-
-        return camera;
-    }
+    };
 
     @Override
     public void onCreate() {
@@ -172,13 +165,20 @@ public class DemoApplication extends Application {
         mHandler.postDelayed(updateRunnable, 500);
     }
 
-    private Runnable updateRunnable = new Runnable() {
+    public static synchronized Camera getCameraInstance() {
 
-        @Override
-        public void run() {
-            Intent intent = new Intent(FLAG_CONNECTION_CHANGE);
-            getApplicationContext().sendBroadcast(intent);
+        if (getProductInstance() == null) return null;
+
+        Camera camera = null;
+
+        if (getProductInstance() instanceof Aircraft) {
+            camera = getProductInstance().getCamera();
+
+        } else if (getProductInstance() instanceof HandHeld) {
+            camera = getProductInstance().getCamera();
         }
-    };
+
+        return camera;
+    }
 
 }

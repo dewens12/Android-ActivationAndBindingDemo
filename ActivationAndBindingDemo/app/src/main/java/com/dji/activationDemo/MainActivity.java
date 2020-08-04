@@ -1,12 +1,13 @@
 package com.dji.activationDemo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import dji.common.error.DJIError;
 import dji.common.realname.AircraftBindingState;
@@ -70,12 +71,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onDestroy();
     }
 
-    private void initUI(){
+    private void initUI() {
 
-        bindingStateTV = (TextView) findViewById(R.id.tv_binding_state_info);
-        appActivationStateTV = (TextView) findViewById(R.id.tv_activation_state_info);
-        loginBtn = (Button) findViewById(R.id.btn_login);
-        logoutBtn = (Button) findViewById(R.id.btn_logout);
+        bindingStateTV = findViewById(R.id.tv_binding_state_info);
+        appActivationStateTV = findViewById(R.id.tv_activation_state_info);
+        loginBtn = findViewById(R.id.btn_login);
+        logoutBtn = findViewById(R.id.btn_logout);
         loginBtn.setOnClickListener(this);
         logoutBtn.setOnClickListener(this);
 
