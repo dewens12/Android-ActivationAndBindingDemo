@@ -3,7 +3,6 @@ package com.dji.activationDemo;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
@@ -18,6 +17,7 @@ import dji.sdk.base.BaseProduct;
 import dji.sdk.camera.Camera;
 import dji.sdk.products.Aircraft;
 import dji.sdk.products.HandHeld;
+import dji.sdk.sdkmanager.DJISDKInitEvent;
 import dji.sdk.sdkmanager.DJISDKManager;
 
 public class DemoApplication extends Application {
@@ -76,10 +76,6 @@ public class DemoApplication extends Application {
         super.onCreate();
         mHandler = new Handler(Looper.getMainLooper());
 
-        /**
-         * When starting SDK services, an instance of interface DJISDKManager.DJISDKManagerCallback will be used to listen to
-         * the SDK Registration result and the product changing.
-         */
         mDJISDKManagerCallback = new DJISDKManager.SDKManagerCallback() {
 
             //Listens to the SDK registration result
@@ -118,12 +114,19 @@ public class DemoApplication extends Application {
                 Log.d("TAG", "onProductDisconnect");
                 notifyStatusChange();
             }
+
             @Override
             public void onProductConnect(BaseProduct baseProduct) {
                 Log.d("TAG", String.format("onProductConnect newProduct:%s", baseProduct));
                 notifyStatusChange();
 
             }
+
+            @Override
+            public void onProductChanged(BaseProduct baseProduct) {
+
+            }
+
             @Override
             public void onComponentChange(BaseProduct.ComponentKey componentKey, BaseComponent oldComponent,
                                           BaseComponent newComponent) {
@@ -145,11 +148,21 @@ public class DemoApplication extends Application {
                                 newComponent));
 
             }
+
+            @Override
+            public void onInitProcess(DJISDKInitEvent djisdkInitEvent, int i) {
+
+            }
+
+            @Override
+            public void onDatabaseDownloadProgress(long l, long l1) {
+
+            }
         };
         //Check the permissions before registering the application for android system 6.0 above.
         int permissionCheck = ContextCompat.checkSelfPermission(getApplicationContext(), android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
         int permissionCheck2 = ContextCompat.checkSelfPermission(getApplicationContext(), android.Manifest.permission.READ_PHONE_STATE);
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M || (permissionCheck == 0 && permissionCheck2 == 0)) {
+        if (permissionCheck == 0 && permissionCheck2 == 0) {
             //This is used to start SDK services and initiate SDK.
             DJISDKManager.getInstance().registerApp(getApplicationContext(), mDJISDKManagerCallback);
             Toast.makeText(getApplicationContext(), "registering, pls wait...", Toast.LENGTH_LONG).show();
@@ -182,3 +195,4 @@ public class DemoApplication extends Application {
     }
 
 }
+

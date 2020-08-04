@@ -6,6 +6,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/14e0817c90d1bd7d66d7f81fab4a5291/library-anti-distortion-4.7/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/14e0817c90d1bd7d66d7f81fab4a5291/library-anti-distortion-4.7/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/14e0817c90d1bd7d66d7f81fab4a5291/library-anti-distortion-4.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8324b95200d757e929c8339082bbcc1/jetified-library-anti-distortion-4.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8324b95200d757e929c8339082bbcc1/jetified-library-anti-distortion-4.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8324b95200d757e929c8339082bbcc1/jetified-library-anti-distortion-4.7/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
