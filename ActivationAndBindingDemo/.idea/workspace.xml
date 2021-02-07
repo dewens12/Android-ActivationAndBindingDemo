@@ -29,52 +29,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bdcb2ac-efbd-4769-bac6-d23094e965c0" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;                                         &#10;                                         Signed-off-by: Dwayne Ewens &lt;ewens_inc@hotmail.com&gt;&#10;                                         &#10;                                         # Conflicts:&#10;                                         #&#9;ActivationAndBindingDemo/.idea/caches/build_file_checksums.ser&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_dji_dji_sdk_4_8_1_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/libraries/Gradle__com_dji_library_anti_distortion_4_7_aar.xml&#10;                                         #&#9;ActivationAndBindingDemo/.idea/workspace.xml&#10;                                         #&#9;ActivationAndBindingDemo/build.gradle&#10; Gradle Build 5.2-20190110000045&#10; Java 11.1 JDK  &#10; 5:41 pm CST">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_dji_sdk_4_13_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_dji_sdk_provided_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_fly_safe_database_1_0_18_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_library_networkrtk_helper_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_utmiss_1_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mapzen_android_lost_3_0_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_dji_sdk_4_8_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_dji_sdk_provided_4_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_library_anti_distortion_4_7_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_library_anti_distortion_4_7_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dji/activationDemo/ConnectionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dji/activationDemo/ConnectionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dji/activationDemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dji/activationDemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +44,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ZY226J4G67]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -91,7 +53,17 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ActivationAndBindingDemo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -124,6 +96,9 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="ZY2256H95F" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -142,6 +117,7 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -192,6 +168,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -322,35 +299,5 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="958" y="243" key="#app" timestamp="1596524797914">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="958" y="243" key="#app/0.0.2560.1400@0.0.2560.1400" timestamp="1596524797914" />
-    <state x="1054" y="363" key="#com.intellij.ide.util.MemberChooser" timestamp="1597036551029">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1054" y="363" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1597036551029" />
-    <state x="1029" y="383" key="FileChooserDialogImpl" timestamp="1596526264277">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1029" y="383" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1596526264277" />
-    <state x="1109" y="569" key="Github.Dialog.Accounts.Choose" timestamp="1596526440940">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1109" y="569" key="Github.Dialog.Accounts.Choose/0.0.2560.1400@0.0.2560.1400" timestamp="1596526440940" />
-    <state x="829" y="400" key="IDE.errors.dialog" timestamp="1597036002482">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="829" y="400" key="IDE.errors.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597036002482" />
-    <state x="804" y="359" key="RollbackChangesDialog" timestamp="1596526185152">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="804" y="359" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596526185152" />
-    <state x="841" y="390" key="Vcs.Push.Dialog.v2" timestamp="1596526524220">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="841" y="390" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596526524220" />
   </component>
 </project>
