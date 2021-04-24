@@ -1,20 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapzen.android:lost:3.0.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58d8b96a6570d0601e6b841178bb50c8/jetified-lost-3.0.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58d8b96a6570d0601e6b841178bb50c8/jetified-lost-3.0.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58d8b96a6570d0601e6b841178bb50c8/jetified-lost-3.0.4/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/gradle-6.8-20200930121325+0000/caches/transforms-3/c43d2b58ce982b4e1de6e1f2038c764e/transformed/jetified-lost-3.0.4/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../Gradle/gradle-6.8-20200930121325+0000/caches/transforms-3/c43d2b58ce982b4e1de6e1f2038c764e/transformed/jetified-lost-3.0.4/res" />
       <root url="file://$PROJECT_DIR$/../../../../../Gradle/gradle-6.8-20200930121325+0000/caches/transforms-3/c43d2b58ce982b4e1de6e1f2038c764e/transformed/jetified-lost-3.0.4/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/gradle-6.8-20200930121325+0000/caches/transforms-3/c43d2b58ce982b4e1de6e1f2038c764e/transformed/jetified-lost-3.0.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../Gradle/gradle-7.0/caches/transforms-3/d5b27b4877a51ed7bf98fe0e2dff5f2c/transformed/jetified-lost-3.0.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../Gradle/gradle-7.0/caches/transforms-3/d5b27b4877a51ed7bf98fe0e2dff5f2c/transformed/jetified-lost-3.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/gradle-7.0/caches/transforms-3/d5b27b4877a51ed7bf98fe0e2dff5f2c/transformed/jetified-lost-3.0.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/ee1bca54220becc41c30e8ba362f289b9f3424ca/lost-3.0.4-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/gradle-6.8-20200930121325+0000/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/ee1bca54220becc41c30e8ba362f289b9f3424ca/lost-3.0.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/gradle-7.0/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/ee1bca54220becc41c30e8ba362f289b9f3424ca/lost-3.0.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/64183480c0a48f9aed168bebff4ccc7eda15d5f/lost-3.0.4-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/gradle-6.8-20200930121325+0000/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/64183480c0a48f9aed168bebff4ccc7eda15d5f/lost-3.0.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/gradle-7.0/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/64183480c0a48f9aed168bebff4ccc7eda15d5f/lost-3.0.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
